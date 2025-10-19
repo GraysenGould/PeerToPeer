@@ -6,7 +6,7 @@ import time
 # Configuration: Point CamGear to the remote FastAPI stream URL.
 # ----------------------------------------------------------------------
 # You must adjust the IP/Port if your FastAPI server is running elsewhere.
-REMOTE_STREAM_URL = "http://127.0.0.1:8000/video"
+REMOTE_STREAM_URL = "https://unsporting-angelo-overnormally.ngrok-free.dev/video"
 
 print(f"Connecting to remote stream at: {REMOTE_STREAM_URL}")
 
